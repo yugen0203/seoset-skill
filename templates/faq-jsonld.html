@@ -1,0 +1,39 @@
+<!--
+  FAQPage JSON-LD テンプレ
+  - Google検索のFAQリッチリザルト表示は2024年以降縮小されたが
+    AI Overview / ChatGPT Search / Perplexity 等の引用には依然有効
+  - ページ内に実際のQ&Aが視覚的に存在することが必須（cloaking 違反防止）
+  - <head> または <body> 末尾に配置
+-->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "ECサイトのCVRを上げる最も効果的な方法は？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "ECサイトのCVRを上げる最も効果的な方法は、ページ表示速度を3秒以内にする・カート離脱者へのリマーケティング・レビュー表示の3つです。特に表示速度はLCP 2.5秒未満を目指すことで CVR が平均15%向上します。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Core Web Vitalsの2026年基準は？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "2026年現在の基準は LCP < 2.5秒、INP < 200ms、CLS < 0.1 です。INPは2024年3月にFIDから置き換わった指標で、ユーザー操作への応答性を測ります。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "llms.txtとrobots.txtの違いは？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "robots.txtはアクセス制御（クローラーに何を読ませるか）、llms.txtはコンテンツ提供（LLMに整理済みMarkdownを渡す）が目的です。両者は補完関係にあり、両方設置するのが推奨されます。"
+      }
+    }
+  ]
+}
+</script>

@@ -1,0 +1,29 @@
+# サイト名・プロダクト名
+
+> 1〜2文の要約。何のサイトか、誰向けか、を端的に書く。例：「開発者向け高速デプロイPaaS。Git push 1回で本番反映、月額$0から開始可能」
+
+任意の補足段落（オプション）。製品の前提知識、対象ユーザー、主要な特徴などを2〜3段落以内で書く。LLMがコンテキストとして読むので、専門用語は補足する。
+
+## Docs
+
+- [Quickstart](https://example.com/docs/quickstart): 5分で始める導入手順
+- [API Reference](https://example.com/docs/api): 全エンドポイント仕様
+- [CLI Reference](https://example.com/docs/cli): コマンドライン操作
+- [Configuration](https://example.com/docs/config): 設定ファイル詳細
+
+## Guides
+
+- [Authentication](https://example.com/guides/auth): 認証フロー
+- [Deployment](https://example.com/guides/deploy): デプロイ手順
+- [Migration from v1](https://example.com/guides/migrate): バージョン移行ガイド
+
+## Examples
+
+- [Sample App (Next.js)](https://example.com/examples/nextjs): Next.js実装例
+- [Sample App (Python)](https://example.com/examples/python): Python実装例
+
+## Optional
+
+- [Changelog](https://example.com/changelog): バージョン履歴
+- [Blog](https://example.com/blog): 開発ブログ
+- [Roadmap](https://example.com/roadmap): 今後の予定
